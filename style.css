@@ -614,7 +614,7 @@ html{
     position: absolute;
     background: url(10.jpg) no-repeat center center/cover;
     width: 100vw;
-    height: 118vh;
+    height: 120vh;
     z-index: -1;
     opacity: 0.4;
 }
@@ -639,9 +639,9 @@ html{
     width: 20rem;
     }
 
-    @media (max-width:900px){
+    @media (min-width:900px) and (max-width:1200px){
         #client-section::before{
-            height: 88vh;
+            height: 90vh;
            }  
     }
 
@@ -664,7 +664,7 @@ html{
 @media (max-width:700px) and (min-width:500px){
 
     #client-section::before{
-      height: 80vh;
+      height: 85vh;
     }
 
     #clients img{
